@@ -5,7 +5,7 @@ Green-harbor.md
 ![Olivia Bennett dash CEO](Screenshots/olivia-ceo.png)
 
 ## User Creation
-[all users](Screenshots/AllUser.png)
+[all users](Screenshots/AllUsers.png)
 
 Created fictional Green Harbor sanitation users across exec, HR, IT, finance, and operations, and set manager relationships for identity governance scenarios.
 
