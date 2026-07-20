@@ -2,7 +2,7 @@ Green-harbor.md
 
 # Green Harbor Sanitation IAM Portfolio. 
 ## CEO dash Olivia Bennett. 
-![Olivia Bennett dash CEO](images/olivia-ceo.png)
+![Olivia Bennett dash CEO](screenshots/olivia-ceo.png)
 
 ## User Creation
 [all users](screenshots/allusers.png)
@@ -36,13 +36,13 @@ Configured multiple conditional access policies to strengthen identity security.
 Created the Green Harbor Employee Resources catalog to organize company groups in a central location. Created the IT staff onboarding access package to automate access requests for new IT employees, streamlining onboarding through a governed approval process. 
 
 ## Privileged Identity Management (PIM)
-![Daniel Kim Conditional Access Admin](screenshot/DanielKimConditional.png)
-![Eligible Admin Status](screenshot/Eligible.png)
+![Daniel Kim Conditional Access Admin](screenshots/DanielKimConditional.png)
+![Eligible Admin Status](screenshots/Eligible.png)
 
 Assigned the Conditional Access Administrator role to Daniel Kim. This allows him to create and manage conditional access policies without granting broader admin permissions. Also, updated Daniel Kim’s role assignment from active to eligible using Microsoft Entra Privileged Identity Management. This enables just in time access, so he activates the role only when he needs to perform admin tasks.
 
 ## Access Review
-![Access Review for Conditional Access Admin](screenshot/accessreview)
+![Access Review for Conditional Access Admin](screenshots/accessreview)
 
 Created a quarterly access review for users eligible for the Conditional Access Administrator role, ensuring privileged access is periodically validated and unnecessary permissions are removed.
 
