@@ -42,7 +42,7 @@ Created the Green Harbor Employee Resources catalog to organize company groups i
 Assigned the Conditional Access Administrator role to Daniel Kim. This allows him to create and manage conditional access policies without granting broader admin permissions. Also, updated Daniel Kim’s role assignment from active to eligible using Microsoft Entra Privileged Identity Management. This enables just in time access, so he activates the role only when he needs to perform admin tasks.
 
 ## Access Review
-![Access Review for Conditional Access Admin](Screenshots/AccessReview)
+![Access Review for Conditional Access Admin](Screenshots/AccessReview.png)
 
 Created a quarterly access review for users eligible for the Conditional Access Administrator role, ensuring privileged access is periodically validated and unnecessary permissions are removed.
 
