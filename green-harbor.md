@@ -5,17 +5,17 @@ Green-harbor.md
 ![Olivia Bennett dash CEO](screenshots/olivia-ceo.png)
 
 ## User Creation
-[all users](screenshots/allusers.png)
+[all users](screenshots/AllUsers.png)
 
 Created fictional Green Harbor sanitation users across exec, HR, IT, finance, and operations, and set manager relationships for identity governance scenarios.
 
 ## Security Groups
-![all groups](screenshots/all-groups.png)
+![all groups](screenshots/All-Groups.png)
 
 Created security groups for departments and job functions to support conditional access and app assignments.
 
 ## Application Developer role assignment 
-![Application Developer](screenshots/applicationdeveloper.png)
+![Application Developer](screenshots/ApplicationDeveloper.png)
 
 Assigned the Application Developer role to Louis Sanchez to let him register and manage apps without broader admin rights, following least privilege.
 
@@ -25,13 +25,13 @@ Assigned the Application Developer role to Louis Sanchez to let him register and
 Created a custom HR help desk role with limited permissions to update basic user profiles, reset passwords, and manage group memberships, demonstrating RBAC and least privilege.
 
 ## Policies
-![Policies](screenshots/policies.png)
+![Policies](screenshots/Policies.png)
 
 Configured multiple conditional access policies to strengthen identity security. Blocked legacy authentication protocols in report-only mode. Required MFA for members of the IT staff group, and required MFA for administrators, which together protect accounts and organizational resources by enforcing modern authentication and role-based controls.
 
 ## Identity Governance 
 ![Catalogs](screenshots/Catalogs.png)
-![Access package](screenshots/accesspackage.png)
+![Access package](screenshots/AccessPackage.png)
 
 Created the Green Harbor Employee Resources catalog to organize company groups in a central location. Created the IT staff onboarding access package to automate access requests for new IT employees, streamlining onboarding through a governed approval process. 
 
