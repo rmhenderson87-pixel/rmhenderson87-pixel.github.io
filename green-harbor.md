@@ -45,7 +45,7 @@ I set up the Green Harbor Employee Resources catalog, then created an IT staff o
 ![Daniel Kim Conditional Access Admin](Screenshots/DanielKimConditional.png)
 ![Eligible Admin Status](Screenshots/Eligible.png)
 
-Assigned the Conditional Access Administrator role to Daniel Kim. This allows him to create and manage conditional access policies without granting broader admin permissions. Also, updated Daniel Kim’s role assignment from active to eligible using Microsoft Entra Privileged Identity Management. This enables just in time access, so he activates the role only when he needs to perform admin tasks.
+Assigned the Conditional Access Administrator role to Daniel Kim. This allows him to create and manage conditional access policies without granting broader admin permissions. Also, updated Daniel Kim’s role assignment from active to eligible using Microsoft Entra Privileged Identity Management. This enables just in time access, so he activates the role only when he needs to perform admin tasks. To me, using PIM is about limiting standing admin rights. By switching Daniel Kim from permanently active to eligible, It means elevated access is time bound and approved when needed, rather than always on.
 
 ## Access Review
 ![Access Review for Conditional Access Admin](Screenshots/AccessReview.png)
