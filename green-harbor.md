@@ -1,39 +1,45 @@
 Green-harbor.md
 
 # Green Harbor Sanitation IAM Portfolio. 
-## CEO dash Olivia Bennett. 
+
+## About this project
+Hi, I’m Ryan Henderson, and I’m building my career in identity and access management. I built this project to take what I’ve learned through study and certs and labs and put it into a real-world style company setup. 
+To me, IAM is about making sure the right people have the right access at the right time, while keeping that access secure. It’s not just creating accounts. It’s the full lifecycle.
+
+## CEO Olivia Bennett. 
 ![Olivia Bennett dash CEO](Screenshots/olivia-ceo.png)
 
 ## User Creation
 ![all users](Screenshots/AllUsers.png)
 
-Created fictional Green Harbor sanitation users across exec, HR, IT, finance, and operations, and set manager relationships for identity governance scenarios.
+I created fictional user accounts across Green Harbors Executive, HR, IT, Finance, and Operations departments to practice setting up identities in a way that mirrors a real company. Each user has a specific role and place in the org chart, including manager relationships. That gives me a base to assign groups, roles, apps, and security controls later on.
 
 ## Security Groups
 ![all groups](Screenshots/All-Groups.png)
 
-Created security groups for departments and job functions to support conditional access and app assignments.
+I created security groups based on departments and job responsibilities within Green Harbor Sanitation. Instead of managing access user by user, these groups let me organize people by what they need for their jobs, and then use those groups when assigning apps or policies. To me, security groups are about making access easier to manage, while still keeping it controlled. If a bunch of people need the same access, I don’t have to click each person individually. I manage a group and adjust membership as roles change. This helps me apply least privilege in a practical way by making sure users are only added to groups that provide the access they need.
+
 
 ## Application Developer role assignment 
 ![Application Developer](Screenshots/ApplicationDeveloper.png)
 
-Assigned the Application Developer role to Louis Sanchez to let him register and manage apps without broader admin rights, following least privilege.
+I assigned the application developer role to Lewis Sanchez because his responsibilities involved managing application registrations in Entra ID. Instead of giving him a broader admin role with permissions he didn’t need, I chose a role that matched his actual duties. To me, role assignments are about balancing access with responsibility, so that people can do their jobs without opening unnecessary risk.
 
 ## Custom HR Role
 ![HR Helpdesk Admin](Screenshots/HRHelpdeskrole.png)
 
-Created a custom HR help desk role with limited permissions to update basic user profiles, reset passwords, and manage group memberships, demonstrating RBAC and least privilege.
+For this lab, I created a custom HR role instead of using a broad built-in admin role. I scoped it just to the permissions that HR typically needs, password resets, and group membership management. That way, HR staff can do their job without having unnecessary access. To me, building a custom role like this is about putting least privilege into practice, not just talking about it.
 
 ## Policies
 ![Policies](Screenshots/Policies.png)
 
-Configured multiple conditional access policies to strengthen identity security. Blocked legacy authentication protocols in report-only mode. Required MFA for members of the IT staff group, and required MFA for administrators, which together protect accounts and organizational resources by enforcing modern authentication and role-based controls.
+Configured multiple conditional access policies to strengthen identity security. Blocked legacy authentication protocols in report-only mode. Required MFA for members of the IT staff group, and required MFA for administrators, which together protect accounts and organizational resources by enforcing modern authentication and role-based controls. To me, conditional access is about defining the rules for how and when access is allowed. MFA adds a second check, blocking legacy auth closes common bypasses, and using report-only mode helps me see the impact before enforcing. That showed me securing access isn’t just flipping switches, it’s balancing protection with usability.
 
 ## Identity Governance 
 ![Catalogs](Screenshots/Catalogs.png)
 ![Access package](Screenshots/AccessPackage.png)
 
-Created the Green Harbor Employee Resources catalog to organize company groups in a central location. Created the IT staff onboarding access package to automate access requests for new IT employees, streamlining onboarding through a governed approval process. 
+I set up the Green Harbor Employee Resources catalog, then created an IT staff onboarding access package to group those resources together. That way, new IT employees can request what they need, but it still goes through an approval step. To me, that’s what governance is about. Building a controlled process for who can request access, who approves it, and what they get. I used Eligible assignments so elevated access is temporary and approved. To me, that’s about reducing standing privileges and lowering risk. To me, that’s about reducing standing privileges and lowering risk. I set a quarterly review so elevated roles don’t linger forever. To me, reviews are a checkpoint, making sure access still makes sense as roles change.
 
 ## Privileged Identity Management (PIM)
 ![Daniel Kim Conditional Access Admin](Screenshots/DanielKimConditional.png)
