@@ -52,6 +52,17 @@ Assigned the Conditional Access Administrator role to Daniel Kim. This allows hi
 
 Created a quarterly access review for users eligible for the Conditional Access Administrator role, ensuring privileged access is periodically validated and unnecessary permissions are removed.
 
+## Joiner Mover Leaver
+
+Previously, we demonstrated the Joiner phase by provisioning a new user and assigning baseline access in Entra ID. This section continues that lifecycle, covering access changes during role transitions and secure off-boarding, to reinforce least privilege and reduce risk.
+
+Mover, Jessica Morgan, Operations to HR.
+
+Scenario: Jessica Morgan transferred from Operations to HR. Objective. To align access with her new role following least privilege. Actions: Reviewed existing group membership, updated group memberships to reflect HR alignment, verified and captured screenshots. Outcome: Successfully demonstrated a role transition with updated access.
+
+
+
+
 This project demonstrates the implementation of a secure IAM environment using Microsoft Entra ID for the fictional Green Harbor Sanitation. It includes user and group management, RBAC, custom roles, conditional access policies, identity governance with catalogs and access packages, privileged identity management, and access reviews, all aligned to least privilege and Zero Trust principles. This hands-on project demonstrates the ability to design, implement, and document core Microsoft Entra ID IAM solutions applying best practices for enterprise environments.
 
 
