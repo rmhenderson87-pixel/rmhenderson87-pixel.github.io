@@ -60,7 +60,13 @@ Mover, Jessica Morgan, Operations to HR.
 
 Scenario: Jessica Morgan transferred from Operations to HR. Objective. To align access with her new role following least privilege. Actions: Reviewed existing group membership, updated group memberships to reflect HR alignment, verified and captured screenshots. Outcome: Successfully demonstrated a role transition with updated access.
 
+**Before: Jessica's Original Operations Group Membership
 
+![Jessica Mover Before](Screenshots/Jessica%20mover%20SS%201.png)
+
+**After: Jessica's New Human Resources group Membership
+
+![Jessica Mover After](Screenshots/Jessica%20Mover%20SS%202.png)
 
 
 This project demonstrates the implementation of a secure IAM environment using Microsoft Entra ID for the fictional Green Harbor Sanitation. It includes user and group management, RBAC, custom roles, conditional access policies, identity governance with catalogs and access packages, privileged identity management, and access reviews, all aligned to least privilege and Zero Trust principles. This hands-on project demonstrates the ability to design, implement, and document core Microsoft Entra ID IAM solutions applying best practices for enterprise environments.
