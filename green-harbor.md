@@ -112,6 +112,10 @@ As I continue building my hands on experience with Microsoft Entra ID, I wanted 
 
 ![Audit log 1](Screenshots/Auditlogsss1.png)
 
+![Audit log 2](Screenshots/Auditlogsss2.png)
+
+
+
 
 This project demonstrates the implementation of a secure IAM environment using Microsoft Entra ID for the fictional Green Harbor Sanitation. It includes user and group management, RBAC, custom roles, conditional access policies, identity governance with catalogs and access packages, privileged identity management, and access reviews, all aligned to least privilege and Zero Trust principles. This hands-on project demonstrates the ability to design, implement, and document core Microsoft Entra ID IAM solutions applying best practices for enterprise environments.
 
