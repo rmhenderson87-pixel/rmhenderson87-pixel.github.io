@@ -100,6 +100,13 @@ After securing the account, I removed Marcus Reed from the ‘All Operations Sta
 
 ![Marcus Reed Removal from Group](Screenshots/Marcusreedss5.png)
 
+Step 6: Verifying group membership Removal
+
+Finally, I verified that Marcus Reed no longer appears as a member of the All Operations Staff security group. This confirmation ensures that all group-based access has been fully removed as part of the off-boarding process.
+
+![Marcus Reed Verifying group removal](Screenshots/Marcusreedss6.png)
+
+
 
 This project demonstrates the implementation of a secure IAM environment using Microsoft Entra ID for the fictional Green Harbor Sanitation. It includes user and group management, RBAC, custom roles, conditional access policies, identity governance with catalogs and access packages, privileged identity management, and access reviews, all aligned to least privilege and Zero Trust principles. This hands-on project demonstrates the ability to design, implement, and document core Microsoft Entra ID IAM solutions applying best practices for enterprise environments.
 
