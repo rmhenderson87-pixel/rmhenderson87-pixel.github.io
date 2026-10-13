@@ -88,8 +88,11 @@ After disabling the account, I confirmed that Marcus Reed’s sign-in status sho
 
 ![Marcus Reed Account Disabled Verification](Screenshots/Marcusreedss3.png)
 
+Step 4: Revoking active Sessions for Marcus Reed
 
+To further secure the offboarding process, I revoked all active sign-in sessions for Marcus Reed in Entra ID. This step forces any existing sessions to sign out immediately, preventing any continued access from devices that were previously authenticated.
 
+![Marcus Reed Active Sessions Revoked](Screenshots/Marcusreedss4.png)
 
 This project demonstrates the implementation of a secure IAM environment using Microsoft Entra ID for the fictional Green Harbor Sanitation. It includes user and group management, RBAC, custom roles, conditional access policies, identity governance with catalogs and access packages, privileged identity management, and access reviews, all aligned to least privilege and Zero Trust principles. This hands-on project demonstrates the ability to design, implement, and document core Microsoft Entra ID IAM solutions applying best practices for enterprise environments.
 
