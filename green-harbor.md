@@ -68,6 +68,19 @@ Scenario: Jessica Morgan transferred from Operations to HR. Objective. To align 
 
 ![Jessica Mover After](Screenshots/Jessica%20Mover%20SS%202.png)
 
+At this point in the lab, I will demonstrate the employee offboarding process for Marcus Reed, Dispatch Supervisor at Green Harbor Sanitation, using Microsoft Entra ID. The goal is to securely deprovision access when an employee leaves the organization. I start by reviewing his account and confirming he’s active, then disable sign-in access, revoke active sign-in sessions, and remove his membership from the all operations staff security group. This process demonstrates identity life-cycle management, access revocation and maintaining security through proper employee offboarding.
+
+Step 1: Reviewing Marcus Reed’s account before offboarding.
+
+![Marcus Reed Account Review](Screenshots/Marcusreedss1.png)
+
+Before starting the offboarding process, I reviewed Marcus Reed’s account in Microsoft Entra ID to verify his identity, role and current account status. The screenshot below confirms that his account was enabled before any offboarding actions were taken.
+
+Step 2: Disabling Marcus Reed’s Account
+
+To begin the offboarding process, I navigated to Marcus Reed’s account settings in Microsoft Entra ID and changed the Account Enabled setting from Yes to No. This security action prevents the former employee from initiating new sign-ins and helps protect organizational resources from unauthorized access.
+
+![Marcus Reed Account Disabled Setting](Screenshots/Marcusreedss2.png)
 
 This project demonstrates the implementation of a secure IAM environment using Microsoft Entra ID for the fictional Green Harbor Sanitation. It includes user and group management, RBAC, custom roles, conditional access policies, identity governance with catalogs and access packages, privileged identity management, and access reviews, all aligned to least privilege and Zero Trust principles. This hands-on project demonstrates the ability to design, implement, and document core Microsoft Entra ID IAM solutions applying best practices for enterprise environments.
 
