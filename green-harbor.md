@@ -106,6 +106,11 @@ Finally, I verified that Marcus Reed no longer appears as a member of the All Op
 
 ![Marcus Reed Verifying group removal](Screenshots/Marcusreedss6.png)
 
+## Audit Log Verification of Account Deactivation
+
+As I continue building my hands on experience with Microsoft Entra ID, I wanted to demonstrate that I understand how audit logs fit into IAM work. Audit logs let you trace what changed, who made the change, and confirm that critical security actions were actually recorded. In this lab, I reviewed the Entra ID audit logs for Marcus Reed’s offboarding and verified that the update user event clearly shows his account enabled status change from true to false. That helped me see that IAM isn’t only about granting or removing access, it’s also about monitoring activity, verifying changes, and keeping an audit trail for accountability.
+
+![Audit log 1](Screenshots/Auditlogsss1.png)
 
 
 This project demonstrates the implementation of a secure IAM environment using Microsoft Entra ID for the fictional Green Harbor Sanitation. It includes user and group management, RBAC, custom roles, conditional access policies, identity governance with catalogs and access packages, privileged identity management, and access reviews, all aligned to least privilege and Zero Trust principles. This hands-on project demonstrates the ability to design, implement, and document core Microsoft Entra ID IAM solutions applying best practices for enterprise environments.
